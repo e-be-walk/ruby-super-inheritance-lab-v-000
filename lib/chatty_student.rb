@@ -1,4 +1,5 @@
 class ChattyStudent < Student
+  attr_accessor :hello
 
   def hello
     super
